@@ -50,3 +50,4 @@ This repository contains a robust image server built using FastAPI and MongoDB, 
    This command will create and run the FastAPI, MongoDB and client containers.
 
 5. Access the API documentation by navigating to `http://localhost:8000` in your web browser.
+
