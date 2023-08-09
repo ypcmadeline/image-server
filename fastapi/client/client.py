@@ -28,5 +28,5 @@ def client_get(name):
 if __name__ == '__main__':
     url = 'http://127.0.0.1:8000/'
     img_name = 'IMG_4130.jpeg'
-    # client_post(img_name)
+    client_post(img_name)
     client_get(img_name)
