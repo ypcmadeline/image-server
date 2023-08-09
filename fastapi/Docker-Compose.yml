@@ -28,18 +28,3 @@ services:
 
     depends_on:
      - server
-
-  mongo:
-
-    build: mongodb
-
-    tty: True
-      
-    volumes:
-      - ./mongodb/:/workdir
-
-    ports:
-      - 127.0.0.1:27017:27017
-
-    depends_on:
-      - server
